@@ -169,12 +169,12 @@ button:focus {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  background: #f3c300;
+  background: #3800a1;
   padding: 5px 30px;
 }
 
 .theme_btn:before {
-  background: #f8b100;
+  background: #6101fc;
 }
 
 .theme_btn:hover {
@@ -215,7 +215,7 @@ button:focus {
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   z-index: -1;
-  background: #f8b100;
+  background: #7400f8;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -246,7 +246,7 @@ button:focus {
 .book_now_btn {
   width: 100%;
   display: block;
-  background: #f3c300;
+  background: #3800a1;
   color: #222222;
   text-transform: uppercase;
   font-size: 14px;
@@ -278,7 +278,7 @@ button:focus {
 }
 
 .header-top a:hover {
-  color: #f3c300;
+  color: #3800a1;
 }
 
 .header-top ul {
@@ -319,7 +319,7 @@ button:focus {
 }
 
 .header-top .header-top-right .header-social a:hover {
-  color: #f3c300;
+  color: #3800a1;
 }
 
 .navbar {
@@ -500,7 +500,7 @@ button:focus {
 }
 
 .banner_area .bg-parallax {
-  background: url("../image/banner_bg.jpg") no-repeat scroll center 0/cover;
+  background: url("../image/banner_bg-musculacao.jpg") no-repeat scroll center 0/cover;
   opacity: 0.50;
 }
 
@@ -824,7 +824,7 @@ button:focus {
 .facilities_area {
   position: relative;
   z-index: 1;
-  background: #04091e;
+  background: #27294e;
   overflow: hidden;
 }
 
@@ -848,7 +848,7 @@ button:focus {
 }
 
 .facilities_item .sec_h4 i {
-  color: #f3c300;
+  color: #3800a1;
   font-size: 24px;
   line-height: 38px;
   display: inline-block;
