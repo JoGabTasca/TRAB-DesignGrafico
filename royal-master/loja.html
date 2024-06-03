@@ -377,5 +377,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/stellar.js"></script>
         <script src="vendors/lightbox/simpleLightbox.min.js"></script>
         <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Remove a classe 'active' de todos os itens de navegação
+                $('.nav-item').removeClass('active');
+            
+                // Adiciona a classe 'active' ao item de navegação que corresponde à página atual
+                var page = window.location.href;
+                $('.nav-item a').each(function() {
+                    if (this.href === page) {
+                        $(this).closest('.nav-item').addClass('active');
+                    }
+                });
+            });
+        </script>
     </body>
 </html>
